@@ -1,0 +1,21 @@
+.background-with-titles {
+    /* Set the background image and size */
+    background-image: url('../images/bg1.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh;
+    width: 100%;
+
+    /* Add some padding and space for the titles */
+    padding: 100px;
+    text-align: center;
+  }
+
+  /* Style for the titles or text */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+  }

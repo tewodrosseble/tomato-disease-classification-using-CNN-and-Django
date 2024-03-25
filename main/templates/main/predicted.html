@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+Predicted Class
+{% endblock title %}
+
+{% block body %}
+
+<{% if predicted_class %}
+<h1>Predicted Class:</h1>
+<p>{{ predicted_class }}</p>
+{% endif %}
+
+{% if error_message %}
+<h1>Error:</h1>
+<p>{{ error_message }}</p>
+{% endif %}
+{% endblock body %}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Tomato Disease Classification
+{% endblock title %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-6">
+            <h1>Select Images</h1>
+    
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="image">Choose an image to predict:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <br><div id="imageContainer" style='height:20vh, width=40vh'></div>
+        <!-- <input type="submit" value="Predict"> -->
+        <button onclick="predictImage()">Upload and Predict</button>
+    </form>
+
+    <div id="predictionResult">
+        <!-- Display prediction results here -->
+    </div>
+    <div id="response-container">
+     
+      </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock body %}

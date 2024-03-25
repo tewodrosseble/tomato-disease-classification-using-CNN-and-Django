@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}
+Crop Care
+{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid background-with-titles" >
+    <div class="row ">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-9">
+            <h1>Welcome to Crop Care Ethiopia</h1>
+        <p style="color: white;">CropCare Ethiopia is a pioneering AgriTech company dedicated to revolutionizing agriculture practices and ensuring food security in Ethiopia. With a deep commitment to sustainable farming and crop protection, CropCare Ethiopia offers a range of innovative products and services focused on disease classification for plants, as well as robust suggestion and recommendation systems for crop types.</p>
+        <button class="btn btn-outline-light"><a href="{% url 'about'%}" style="color: white;">Read More</a></button>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+{% endblock body %}
