@@ -46,16 +46,10 @@ rsa==4.9
 scipy==1.14.1
 six==1.16.0
 sqlparse==0.5.1
-<<<<<<< HEAD
-tensorboard==2.12.0
-tensorboard-data-server==0.7.2
-tensorflow==2.12.0
-=======
 tensorboard==2.12.3
 tensorboard-data-server==0.7.2
 tensorflow==2.12.0
 tensorflow-estimator==2.12.0
->>>>>>> f9a4dae (chore: Update dependencies in requirements.txt)
 tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.4.0
 typing_extensions==4.12.2
