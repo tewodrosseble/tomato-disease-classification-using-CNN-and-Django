@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z1_jhl7alv5c+$num8j4oak47k&2^2azdjfnl%7ztbp19omd$#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tomato-classify.onrender.com', 'localhost','https://tomato-disease-classification-using-cnn.onrender.com' ]
+ALLOWED_HOSTS = ['tomato-classify.onrender.com', 'tomato-disease-classification-using-cnn.onrender.com' ]
 
 
 # Application definition
